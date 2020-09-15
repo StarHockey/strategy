@@ -10,6 +10,7 @@ public:
     Duck();
     void quack();
     void swim();
+    void fly();
     virtual void display() = 0;
 };
 

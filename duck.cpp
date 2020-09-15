@@ -13,3 +13,7 @@ void Duck::quack() {
 void Duck::swim() {
     cout << "swim" << endl;
 }
+
+void Duck::fly() {
+    cout << "polet" << endl;
+}
