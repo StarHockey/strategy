@@ -2,7 +2,8 @@
 
 RubberDuck::RubberDuck()
 {
-
+    quackbehavior = new Squeak();
+    flyBehavior = new FlyNoWay();
 }
 
 

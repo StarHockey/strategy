@@ -7,7 +7,7 @@ class MallardDuck : public Duck
 {
 public:
     MallardDuck();
-    virtual void display();
+    void display();
 };
 
 #endif // MALLARDDUCK_H

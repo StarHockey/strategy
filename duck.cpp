@@ -1,19 +1,18 @@
 #include "duck.h"
 
-Duck::Duck()
-{
+void Duck::PerformFly() {
+     flyBehavior->fly();
 
 }
 
-void Duck::quack() {
-    cout << "krya-krya" << endl;
+void Duck::PerformQuack() {
+     quackbehavior->quack();
+
 }
+
 
 
 void Duck::swim() {
-    cout << "swim" << endl;
+    cout << "All Ducks float, even decoys!" << endl;
 }
 
-void Duck::fly() {
-    cout << "polet" << endl;
-}

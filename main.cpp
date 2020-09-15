@@ -9,10 +9,10 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
 
 
-    Duck *d1 = new RubberDuck();
+    Duck *d1 = new RedHeadDuck();
     d1->display();
-    d1->quack();
-    d1->fly();
+    d1->PerformQuack();
+    d1->PerformFly();
 
     return a.exec();
 }
