@@ -8,11 +8,13 @@
 #include "mutequack.h"
 #include "flynoway.h"
 #include "squeak.h"
+#include "flyrocketpowered.h"
 
 class Duck {
 public:
     FlyBehavior *flyBehavior;
     QuackBehavior *quackbehavior;
+
 
     void PerformFly();
     void PerformQuack();
